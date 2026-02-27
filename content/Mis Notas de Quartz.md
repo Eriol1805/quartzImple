@@ -58,7 +58,9 @@ npx quartz sync #Luego solo este para sicronizar
 ```
 
 - Configuramos el archivo deploy.yml
-	Este le dará a Github las instrucciones para el deploy
+	Este le dará a Github las instrucciones para el deploy mediante github actions
+
+>.github/workflows/deploy.yml
 
 ``` bash
 name: Deploy Quartz site to GitHub Pages
@@ -107,3 +109,16 @@ jobs:
         id: deployment
         uses: actions/deploy-pages@v4
 ```
+
+- Implementar los cambios
+
+``` bash
+npx quartz sync
+
+git push -u origin main
+
+```
+
+- En github pages 
+Build and deployment
+GitHubActions
