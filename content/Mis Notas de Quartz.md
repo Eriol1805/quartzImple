@@ -124,3 +124,9 @@ git push -u origin main
 Build and deployment
 
 `GitHubActions`
+
+- Ya tendrás deployada tu web desde Obsidian
+
+cada ves que actualices contenido solo corres:
+
+	`npx quartz sync`
