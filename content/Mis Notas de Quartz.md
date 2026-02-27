@@ -119,6 +119,7 @@ git push -u origin main
 
 ```
 
-- En github pages 
+- En github pages:
+
 Build and deployment
-GitHubActions
+`GitHubActions`
