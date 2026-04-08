@@ -23,7 +23,7 @@ type QuartzPluginInstance =
 The following sections will go into detail for what methods can be implemented for each plugin type. Before we do that, let's clarify a few more ambiguous types:
 
 - `BuildCtx` is defined in `quartz/ctx.ts`. It consists of
-  - `argv`: The command line arguments passed to the Quartz [[build]] command
+  - `argv`: The command line arguments passed to the Quartz [[../build]] command
   - `cfg`: The full Quartz [[configuration]]
   - `allSlugs`: a list of all the valid content slugs (see [[paths]] for more information on what a slug is)
 - `StaticResources` is defined in `quartz/resources.tsx`. It consists of
